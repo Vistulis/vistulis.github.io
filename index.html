@@ -41,35 +41,16 @@
     .dark {
           background: #0f0f10;
     }
-        .curve {
-            position: absolute;
-            height: 225px;
-            width: 100%;
-            bottom: 0;
-        }
 
-        .curve::before {
-            content: '';
-            display: block;
-            position: absolute;
-            border-radius: 100% 50%;
-            width: 55%;
-            height: 100%;
-            background-color: #3c31dd;
-            transform: translate(85%, 60%);
-        }
+    .custom-shape-divider-top-1695320021 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
 
-        .curve::after {
-            content: '';
-            display: block;
-            position: absolute;
-            border-radius: 100% 50%;
-            width: 55%;
-            height: 100%;
-            background-color: #dd3f31;
-            transform: translate(-4%, 40%);
-            z-index: -1;
-        }
     </style>
 </head>
   
@@ -78,7 +59,11 @@
   <section class="blue">
     <h1>Vistulas Website</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <div class="curve"></div>
+    <div class="custom-shape-divider-top-1695320021">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
 </section>
 <section class="red">
     <h1>Vistulas Website</h1>
